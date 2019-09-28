@@ -44,4 +44,4 @@ npmのバージョンをあげて、`npx create-nuxt-app road-to-the-eternals`�
 
 ## ベタにデータ用意
 
-![ss1](assets/img/ss1.png)
+![ss1](../assets/img/ss1.png)
