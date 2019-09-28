@@ -1,4 +1,4 @@
-## shinjuku-mokumoku#66
+## Shinjuku Mokumoku Programming #66
 
 @ryuhei4k9
 
