@@ -1,8 +1,6 @@
-## ロード・トゥ・十天衆
+## shinjuku-mokumoku#66
 
 @ryuhei4k9
-
-shinjuku-mokumoku#66
 
 ---
 
