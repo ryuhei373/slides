@@ -1,5 +1,4 @@
 packages:
   - 'decks/*'
-
 allowBuilds:
-  playwright-chromium: true
+  playwright-chromium: set this to true or false
