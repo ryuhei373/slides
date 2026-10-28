@@ -11,6 +11,15 @@ drawings:
 transition: slide-left
 mdc: true
 routerMode: hash
+seoMeta:
+  ogTitle: 結局Nuxt Layersって何ができて何が嬉しいの？
+  ogDescription: Vue Fes Japan 2026 LT（ryuhei373）
+  ogImage: https://slides.ryuhei373.dev/vuefes2026/og.png
+  ogUrl: https://slides.ryuhei373.dev/vuefes2026/
+  twitterCard: summary_large_image
+  twitterTitle: 結局Nuxt Layersって何ができて何が嬉しいの？
+  twitterDescription: Vue Fes Japan 2026 LT（ryuhei373）
+  twitterImage: https://slides.ryuhei373.dev/vuefes2026/og.png
 ---
 
 # 結局Nuxt Layersって<br>何ができて何が嬉しいの？
