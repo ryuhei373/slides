@@ -1,0 +1,130 @@
+/* Flexoki（ライト）のパレット */
+:root {
+  --fx-paper: #fffcf0;
+  --fx-base-50: #f2f0e5;
+  --fx-base-100: #e6e4d9;
+  --fx-base-200: #cecdc3;
+  --fx-base-300: #b7b5ac;
+  --fx-base-500: #878580;
+  --fx-base-600: #6f6e69;
+  --fx-base-800: #403e3c;
+  --fx-base-900: #282726;
+  --fx-black: #100f0f;
+  --fx-orange-400: #da702c;
+  --fx-orange-600: #bc5215;
+  --fx-blue-400: #4385be;
+  --fx-blue-600: #205ea6;
+  --fx-green-400: #879a39;
+  --fx-green-600: #66800b;
+  --fx-red-600: #af3029;
+
+  --slidev-code-background: var(--fx-base-50);
+  --slidev-code-foreground: var(--fx-black);
+}
+
+.slidev-layout {
+  background: var(--fx-paper);
+  color: var(--fx-black);
+}
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3 {
+  color: var(--fx-black);
+}
+
+.slidev-layout h1 {
+  font-weight: 700;
+}
+
+.slidev-layout pre.shiki,
+.slidev-layout .slidev-code {
+  background: var(--fx-base-50) !important;
+}
+
+.slidev-layout :not(pre) > code {
+  background: var(--fx-base-100);
+  color: var(--fx-black);
+}
+
+.slidev-layout a {
+  color: var(--fx-orange-600);
+}
+
+.slidev-layout a:hover {
+  color: var(--fx-orange-400);
+}
+
+.accent {
+  color: var(--fx-orange-600);
+}
+
+.muted {
+  color: var(--fx-base-600);
+}
+
+.callout {
+  position: relative;
+  padding: 1rem 1rem 1rem calc(1rem + 6px);
+  border-radius: 8px;
+  background: var(--fx-base-50);
+  overflow: hidden;
+}
+/* 左の帯: 外側（左上・左下）だけ角丸、右辺は垂直 */
+.callout::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  background: var(--fx-orange-600);
+  border-radius: 8px 0 0 8px;
+}
+
+.shot {
+  border: 1px solid var(--fx-base-200);
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(16, 15, 15, 0.1);
+}
+
+.usecase h3 {
+  font-size: 1.15em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+.shot-main {
+  height: 240px;
+}
+
+.shot-sub {
+  height: 130px;
+}
+
+.demo-lead {
+  height: 40px;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.demo-lead .slidev-code-wrapper,
+.demo-lead pre {
+  margin: 0 !important;
+}
+
+.demo-grid {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 28px;
+  margin-top: 12px;
+  align-items: start;
+}
+
+.demo-note-code {
+  --slidev-code-font-size: 10px;
+  --slidev-code-line-height: 14px;
+  --slidev-code-padding: 6px 8px;
+  --slidev-code-margin: 0;
+}
