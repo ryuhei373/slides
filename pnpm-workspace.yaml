@@ -1,4 +1,5 @@
 packages:
   - 'decks/*'
-allowBuilds:
-  playwright-chromium: set this to true or false
+
+ignoredBuiltDependencies:
+  - playwright-chromium
